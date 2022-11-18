@@ -858,7 +858,7 @@ button{
 /* For medium devices */
 @media screen and (min-width: 568px){
     .home__content{
-        grid-template-columns: max-content 1fr 1fr;
+        grid-template-columns: max-content 2fr 1fr;
     }
     .home__data{
         grid-column: initial;
@@ -1014,13 +1014,16 @@ button{
     .footer__container{
         padding: 0;
     }
+    .nav, .container{
+        max-width: 1023px;
+    }
     .home__blob{
         width: 320px;
     }
     .home__social{
         transform: translateX(-6rem);
     }
-    .services__container{
+    .certif__container{
         grid-template-columns: repeat(3, 238px);
     }
     .portfolio__content{
