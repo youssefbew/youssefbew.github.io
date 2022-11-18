@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Youssef</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i>Über mich</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Fähigkeiten</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certifications" class="nav__link"><i class="uil uil-award-alt nav__icon"></i>Zertifikate</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>Portfolio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>kontakt</a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/youssef-lahbari-7382bb250/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/jozixo/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/lbr.youssef" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" x='22' y='6' href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>                            
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hallo, Ich bin Youssef</h1>
+                            <h3 class="home__subtitle">Digitale Entwicklung Student</h3>
+                            <p class="home__description">Webseitenentwicklung, anwendungsentwicklung 
+                                front-end und back-end.</p>
+                            <a href="#contact" class="button button--flex">
+                            kontaktiere mich<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">runterscrollen</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Über mich</h2>
+                <span class="section__subtitle">Meine Einleitung</span>
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">Mein Name ist Youssef Lahbari, ich bin 19 Jahre alt.
+                             Ich hatte mein Abitur in Wissenschaften und Elektrothechnik im Jahr 2021 gemacht.
+                              Derzeit mache ich eine Ausbildung in Digital Entwicklung. <br>
+                               Ich habe gute Kenntnisse in : <br> .Front-End{HTML: CSS;} <br> .Back-End{Python: SQL;} <br>
+                                Und auch die Grundlagen von JavaScript, Java, C, C#. Ich liebe die Entwicklungs-Welt,
+                                 also lerne ich jeden Tag etwas Neues. Ich suche ein Ausbildungsangebot für die
+                                  Anwendungsentwicklung für September 2023.</p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">06+</span>
+                                <span class="about__info-name">Entwicklungs <br>sprachen</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">04+</span>
+                                <span class="about__info-name">Sprech <br> sprachen</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">06+</span>
+                                <span class="about__info-name">Soft <br> Skills</span>
+                            </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Lebenslauf.pdf" class="button button--flex">
+                                Lebenslauf herunterladen<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Fähigkeiten</h2>
+                <span class="section__subtitle">Mein technisches Niveau</span>
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILL 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Front-end Entwicklung</h1>
+                                    <span class="skills__subtitle">Mehr als 3 Sprachen</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <!--==================== SKILL2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <!-- <i class="uil uil-swatchbook skills__icon"></i> -->
+                                <i class="uil uil-desktop-alt skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Digitale Fähigkeiten</h1>
+                                    <span class="skills__subtitle">More than 5 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Microsoft 365(Word-Excel-PowerPoint...)</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sketch"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Pixelart</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__pixelart"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== SKILL 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Back-end Entwicklung</h1>
+                                <span class="skills__subtitle">Mehr als 4 Sprachen</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C#</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </section>
+            <!--==================== CERTIFICATIONS ====================-->
+            <section class="certif section" id="certifications">
+                <h2 class="section__title">Zertifikate</h2>
+                <span class="section__subtitle">Sprachen und Online-Kurse</span>
+                <div class="certif__container container grid">
+                    
+                    <!--==================== CERTIFICATION 1 ====================-->
+                    <div class="certif__content">
+                        <div>
+                            <i class="uil uil-comments-alt certif__icon"></i>
+                            <!-- <i class="uil uil-letter-english-a certif__icon"></i> -->
+                            <h3 class="certif__title">Sprachen <br> zertifikate</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link certif__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="certif__modal">
+                            <div class="certif__modal-content">
+                                <h4 class="certif__modal-title">Sprachniveau <br>& Testanbieter</h4>
+                                <i class="uil uil-times certif__modal-close"></i>
+                                <ul class="certifs__modal-certifs grid">
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Arabisch (Muttersprache)</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>English C2-Zertifikat (EFSET)</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Französisch C1(OFPPT-Langues | Altissia)</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Deutsch B1(ECL-Prüfungszentrums)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== CERTIFICATION 2 ====================-->
+                    <div class="certif__content">
+                        <div>
+                            <!-- <i class="uil uil-linkedin-alt certif__icon"></i> -->
+                            <i class="uil uil-linkedin certif__icon"></i>
+                            <!-- <i class="uil uil-arrow certif__icon"></i> -->
+                            <h3 class="certif__title">LinkedIn<br>Zertifikate</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link certif__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="certif__modal">
+                            <div class="certif__modal-content">
+                                <a href="https://www.linkedin.com/learning/paths/become-a-software-developer?trk=li-softwaredev-become-en&src=re-other&veh=www.microsoft.com%7Cre-other" target="_blank">
+                                <h4 class="certif__modal-title">Become a <br> Software Developer</h4>
+                                </a>
+                                <i class="uil uil-times certif__modal-close"></i>
+                                <ul class="certifs__modal-certifs grid">
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Learn foundations of programming for software development</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Practice with popular technologies like HTML and CSS</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Explore core languages like Python, JavaScript, and Java</p>
+                                    </li>
+                                    <!-- <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Alle meine Zertifizierungen finden Sie in meinem LinkedIn-Profil</p>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== CERTIFICATION 3 ====================-->
+                    <div class="certif__content">
+                        <div>
+                            <i class="uil uil-web-grid certif__icon"></i>
+                            <h3 class="certif__title">Google <br> Zertifikat</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link certif__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="certif__modal">
+                            <div class="certif__modal-content">
+                                <a href="https://www.coursera.org/learn/python-crash-course" target="_blank">
+                                <h4 class="certif__modal-title">Crash Course <br> on Python</h4>
+                                </a>
+                                <i class="uil uil-times certif__modal-close"></i>
+                                <ul class="certifs__modal-certifs grid">
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Understand what Python is and why Python is relevant to automation</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Write short Python scripts to perform automated actions</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Understand how to use the basic Python structures: strings, lists, and dictionaries</p>
+                                    </li>
+                                    <li class="certifs__modal-certif">
+                                        <i class="uil uil-check-circle certif__modal-icon"></i>
+                                        <p>Create your own Python objects</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="note">P.S: Alle meine Zertifizierungen finden Sie in meinem LinkedIn-Profil</p>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Mein Lernweg</span>
+                <div class="portfolio__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/hassan2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Hassan 2 Gymnasium</h3>
+                                <p class="portfolio__description">{ Von 2018 bis 2021; } <br>
+                                    ich habe die abiturprüfung nach drei jahren studium
+                                     am gymnasium hassan 2 bestanden. <br>
+                                      Reihe: wissenschaften und technologie. <br>
+                                       schwerunkt: wissenschaften und elektrotechnik.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Zeugnis
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 2====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/semlalia3.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Universität CADI AYYAD FSSM </h3>
+                                <p class="portfolio__description">{ Von 2021 bis 2022; }<br>
+                                    Ich habe ein Jahr Physik an der Cadi Ayyad Universität studiert. <br> Da ich
+wusste, dass Physik nicht mein Lieblingsfach ist und entdeckte mehr mein Interesse an Programmierung und Entwicklung.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Zeugnis
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 3====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/nticsyba.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">OFPPT NTIC SYBA</h3>
+                                <p class="portfolio__description">{ Von 2022 bis jetzt; }<br>
+                                    Ich habe an die digitalen Entwicklungsausbildung im NTIC OFPPT
+                                    teilgenommen.
+                                     Bis jetzt haben wir der Entwicklung von Websites und der Auflösung von Logarithmen in Python studiert.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Zeugnis
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">kontaktiere mich</h2>
+                <span class="section__subtitle">in Kontakt kommen</span>
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Ruf mich an</h3>
+                                <span class="contact__subtitle">(+212)684797079</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">youssefhiro2019@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Ort</h3>
+                                <span class="contact__subtitle">LOT ABOUAB ENNAKHIL <br>
+                                    TRANCHE 2 NR 18 <br>
+                                OUAHAT SIDI BRAHIM <br>
+                            MARRAKESCH <br>
+                        MAROKKO </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://formspree.io/f/xqkjnvjz" method="POST" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="name" class="contact__label">Name</label>
+                                <input type="text" name="name" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="email" class="contact__label">Email</label>
+                                <input type="email" name="email" class="contact__input">
+                            </div>
+                        </div>
+                            <div class="contact__content">
+                                <label for="subject" class="contact__label" >Objekt</label>
+                                <input type="text" name="subject" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="message" class="contact__label">Nachricht</label>
+                                <textarea class="contact__input" name="message" id="message" cols="0" rows="7"></textarea>
+                            </div>
+                           
+                            <div>
+                                <button class="button button--flex">
+                                    Nachricht senden
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
+                            </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Youssef Lahbari</h1>
+                        <span class="footer__subtitle">Student developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#certifications" class="footer__link">Certifications</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/youssef-lahbari-7382bb250/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/YoussefLahbari" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+            
+                        <a href="https://www.facebook.com/lbr.youssef" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/jozixo/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
